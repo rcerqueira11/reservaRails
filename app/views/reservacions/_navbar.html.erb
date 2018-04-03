@@ -8,13 +8,15 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="<%=  root_path %>">Home <span class="sr-only">(current)</span></a>
             </li>
             
           </ul>
           <div class="form-inline mt-2 mt-md-0">
-            <button type="button" class="btn btn-success pull-right" data-toggle="modal" data-target="#reservModal">Crear Reserva</button>
+          <a class="btn btn-success " href="<%=  new_reservacion_path %>" role="button">Crear Reserva</a>
           </div>
         </div>
       </nav>
     </header>
+
+    
